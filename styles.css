@@ -1,0 +1,107 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #d60808;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ff8080;
+    padding: 10px;
+}
+
+nav a {
+    color: #038697;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.about-me {
+    margin-bottom: 40px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.project {
+    text-align: center;
+    border: 1px solid #a08f8f;
+    border-radius: 5px;
+    padding: 60px;
+    flex: 1;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f0289d;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #9553b4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #128878;
+}
+
+footer {
+    background-color: #333;
+    color: #896ad3;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
